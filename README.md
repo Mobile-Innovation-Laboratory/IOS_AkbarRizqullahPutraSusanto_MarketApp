@@ -1,12 +1,12 @@
-# Market App Simple App
+# Market Simple App
 
 ## Deskripsi
 Market App merupakan aplikasi melihat produk mulai dari produk kecantikan, perabotan, dan lain lain. Aplikasi ini menggunakan Dummy Api.
 
 ## Fitur
-- 📝 **Menambahkan sertav mengahapus keranjang pada barang yang dimasukkan**
+- 📝 **Menambahkan serta mengahapus keranjang pada barang yang dimasukkan**
 - 🔍 **Memfilter produk**
-- 🔄 **Sinkronisasi akun dengan API**
+- 🔄 **Sinkronisasi akun dengan API dan Core Data**
 - 👤 **mengelola akun pengguna**
 
 ## Instalasi
@@ -14,7 +14,7 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di perangkat Anda:
 
 1. **Clone repository ini**
    ```bash
-   git clone https://github.com/Mobile-Innovation-Laboratory/IOS_AkbarRizqullahPutraSusanto-MarketApp.git
+   git clone https://github.com/Mobile-Innovation-Laboratory/IOS_AkbarRizqullahPutraSusanto_MarketApp.git
    ```
 2. **Buka proyek di Xcode**
    - Jalankan Xcode dan buka file `Tubes-Motion.xcworkspace`.
