@@ -1,9 +1,10 @@
 //
-//  CartView.swift
-//  DummyJSON
+//  Persistence.swift
+//  Tubes-Motion
 //
 //  Created by Akbar Rizqullah on 27/02/25.
 //
+
 
 import SwiftUI
 
@@ -13,8 +14,21 @@ struct CartView: View {
     
     var body: some View {
         NavigationView {
-            List(viewModel.carts) { cart in
-                Text(cart.name ?? "No Name")
+            List {
+                ForEach(viewModel.carts, id: \.id) { cart in
+                    HStack {
+                        Text(cart.name ?? "No Name")
+                        Spacer()
+                        Button(action: {
+                            Task {
+                                await viewModel.deleteCart(id: cart.id!)
+                            }
+                        }) {
+                            Image(systemName: "trash")
+                                .foregroundColor(.red)
+                        }
+                    }
+                }
             }
             .onAppear {
                 Task {
@@ -29,4 +43,6 @@ struct CartView: View {
 #Preview {
     CartView()
 }
+
+
 

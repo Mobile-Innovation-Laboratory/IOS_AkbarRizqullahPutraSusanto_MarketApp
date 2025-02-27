@@ -1,9 +1,16 @@
+//
+//  Persistence.swift
+//  Tubes-Motion
+//
+//  Created by Akbar Rizqullah on 27/02/25.
+//
+
 import SwiftUI
 
 struct ProductDetailView: View {
     
     @StateObject var viewModel: ProductDetailViewModel
-    @StateObject var cartViewModel = CartViewModel() 
+    @StateObject var cartViewModel = CartViewModel()
     
     var body: some View {
         VStack {
@@ -17,11 +24,9 @@ struct ProductDetailView: View {
                                         .resizable()
                                         .scaledToFill()
                                         .clipped()
-                                    
                                 } placeholder: {
                                     Color.gray
                                 }
-                                
                             }
                         }
                         .tabViewStyle(.page)
@@ -48,8 +53,9 @@ struct ProductDetailView: View {
                 
                 Button {
                     Task {
-                        if let productName = viewModel.product?.title {
-                            await cartViewModel.addToCart(name: productName)
+                        if let productName = viewModel.product?.title,
+                           let imageURL = viewModel.product?.images?.first {
+                            await cartViewModel.createCart(name: productName, quantity: "1", imageURL: imageURL)
                         }
                     }
                 } label: {

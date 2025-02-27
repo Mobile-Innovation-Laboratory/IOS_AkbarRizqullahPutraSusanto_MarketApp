@@ -1,8 +1,8 @@
 //
-//  HomeView.swift
-//  DummyJSON
+//  Persistence.swift
+//  Tubes-Motion
 //
-//  Created by Irham Naufal on 01/02/25.
+//  Created by Akbar Rizqullah on 27/02/25.
 //
 
 import SwiftUI
@@ -14,7 +14,7 @@ struct HomeView: View {
     
     var body: some View {
         VStack(spacing: 0) {
-            Text("Dummy JSON")
+            Text("Product")
                 .font(.headline)
                 .padding()
             

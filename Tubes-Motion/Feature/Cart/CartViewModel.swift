@@ -1,70 +1,79 @@
 //
-//  CartViewModel.swift
-//  DummyJSON
+//  Persistence.swift
+//  Tubes-Motion
 //
 //  Created by Akbar Rizqullah on 27/02/25.
 //
 
+
 import SwiftUI
+import CoreData
 
 final class CartViewModel: ObservableObject {
-    private let cartRepository: CartRepository = CartRepository()
     
+    private let cartRepository = CartRepository()
     
-    @Published var carts: [Cart] = []
-    
-    @Published var searchText = ""
+    @Published var carts: [CartEntity] = []
     @Published var nameCart = ""
-    @Published var isSucces = false
-    
-    @Published var ishowmodal = false
+    @Published var isSuccess = false
     
     @MainActor
-    func createCart() async {
-        let response = cartRepository.createCart(name: nameCart)
+    func createCart(name: String, quantity: String, imageURL: String) async {
+        let response = cartRepository.createCart(name: name, quantity: quantity, imageURL: imageURL)
         
         switch response {
-        case .success(let succes):
-            isSucces = succes
-        case .failure(let failure):
-            print(failure)
-        }
-    }
-    
-    @MainActor
-    func createCart2() async {
-        do {
-            try cartRepository.createCart(name: nameCart)
-            isSucces = true
-        }catch{
-            print(error)
+        case .success(let success):
+            isSuccess = success
+            await getCart()
+        case .failure(let error):
+            print("Error adding to cart: \(error)")
         }
     }
     
     @MainActor
     func getCart() async {
-        let response = cartRepository.getCart(searchText: searchText)
+        let response = cartRepository.getCart()
         
         switch response {
-        case .success(let succes):
-            carts = succes
-        case .failure(let failure):
-            print(failure)
+        case .success(let cartsData):
+            print("Carts fetched: \(cartsData.count)")
+            for cart in cartsData {
+                print("Cart ID: \(cart.id?.uuidString ?? "nil")")
+            }
+            carts = cartsData
+        case .failure(let error):
+            print("Error fetching cart: \(error)")
         }
     }
+
     
     @MainActor
-    func addToCart(name: String) async {
-        let response = cartRepository.createCart(name: name)
+    func updateCart(id: UUID, quantity: String, imageURL: String) async {
+        let response = cartRepository.updateCart(id: id, quantity: quantity, imageURL: imageURL)
         
         switch response {
         case .success(let success):
             if success {
-                await getCart() // Refresh daftar cart setelah menambahkan item
+                await getCart() 
             }
-        case .failure(let failure):
-            print("Failed to add to cart: \(failure)")
+        case .failure(let error):
+            print("Error updating cart: \(error)")
         }
     }
 
+
+    
+    @MainActor
+    func deleteCart(id: UUID) async {
+        let response = cartRepository.deleteCart(id: id)
+        
+        switch response {
+        case .success(let success):
+            if success {
+                await getCart()
+            }
+        case .failure(let error):
+            print("Failed to delete cart: \(error)")
+        }
+    }
 }

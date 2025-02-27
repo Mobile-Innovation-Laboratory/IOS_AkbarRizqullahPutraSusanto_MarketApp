@@ -1,8 +1,8 @@
 //
-//  ProductTargetType.swift
-//  DummyJSON
+//  Persistence.swift
+//  Tubes-Motion
 //
-//  Created by Irham Naufal on 02/02/25.
+//  Created by Akbar Rizqullah on 27/02/25.
 //
 
 import Foundation
@@ -27,7 +27,6 @@ extension ProductTargetType: DefaultTargetType, AccessTokenAuthorizable {
         case .getProductDetail(let id): "/products/\(id)"
         case .getCategories: "/products/categories"
         case .getProductListByCategory(let category): "/products/category/\(category)"
-        default: ""
         }
     }
     
