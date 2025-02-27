@@ -37,7 +37,7 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di perangkat Anda:
 
 ## Screenshot
 <p align="center">
-  <img src="https://github.com/Mobile-Innovation-Laboratory/IOS_AkbarRizqullahPutraSusanto-MarketApp/blob/main/PHOTO-2025-02-27-22-18-14.jpg?raw=true](https://github.com/Mobile-Innovation-Laboratory/IOS_AkbarRizqullahPutraSusanto_MarketApp/blob/main/assets/PHOTO-2025-02-27-22-18-14.jpg?raw=true" width="250" />
+  <img src="https://github.com/Mobile-Innovation-Laboratory/IOS_AkbarRizqullahPutraSusanto_MarketApp/blob/main/assets/PHOTO-2025-02-27-22-18-14.jpg?raw=true" width="250" />
   <img src="https://github.com/Mobile-Innovation-Laboratory/IOS_AkbarRizqullahPutraSusanto_MarketApp/blob/main/assets/PHOTO-2025-02-27-22-18-15.jpg?raw=true" width="250" />
   <img src="https://github.com/Mobile-Innovation-Laboratory/IOS_AkbarRizqullahPutraSusanto_MarketApp/blob/main/assets/PHOTO-2025-02-27-22-35-45.jpg?raw=true" width="250" />
 </p>
