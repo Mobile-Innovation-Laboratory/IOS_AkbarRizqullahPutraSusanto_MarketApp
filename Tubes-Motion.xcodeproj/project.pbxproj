@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BBFAEF272D706FB8007BCFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBFAEF092D706FB5007BCFDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBFAEF102D706FB5007BCFDD;
+			remoteInfo = "Tubes-Motion";
+		};
+		BBFAEF312D706FB8007BCFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBFAEF092D706FB5007BCFDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBFAEF102D706FB5007BCFDD;
+			remoteInfo = "Tubes-Motion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBFAEF112D706FB5007BCFDD /* Tubes-Motion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tubes-Motion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBFAEF262D706FB8007BCFDD /* Tubes-MotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tubes-MotionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBFAEF302D706FB8007BCFDD /* Tubes-MotionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tubes-MotionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BBFAEF132D706FB5007BCFDD /* Tubes-Motion */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tubes-Motion";
+			sourceTree = "<group>";
+		};
+		BBFAEF292D706FB8007BCFDD /* Tubes-MotionTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tubes-MotionTests";
+			sourceTree = "<group>";
+		};
+		BBFAEF332D706FB8007BCFDD /* Tubes-MotionUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tubes-MotionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBFAEF0E2D706FB5007BCFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBFAEF232D706FB8007BCFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBFAEF2D2D706FB8007BCFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBFAEF082D706FB5007BCFDD = {
+			isa = PBXGroup;
+			children = (
+				BBFAEF132D706FB5007BCFDD /* Tubes-Motion */,
+				BBFAEF292D706FB8007BCFDD /* Tubes-MotionTests */,
+				BBFAEF332D706FB8007BCFDD /* Tubes-MotionUITests */,
+				BBFAEF122D706FB5007BCFDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBFAEF122D706FB5007BCFDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBFAEF112D706FB5007BCFDD /* Tubes-Motion.app */,
+				BBFAEF262D706FB8007BCFDD /* Tubes-MotionTests.xctest */,
+				BBFAEF302D706FB8007BCFDD /* Tubes-MotionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBFAEF102D706FB5007BCFDD /* Tubes-Motion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBFAEF3A2D706FB8007BCFDD /* Build configuration list for PBXNativeTarget "Tubes-Motion" */;
+			buildPhases = (
+				BBFAEF0D2D706FB5007BCFDD /* Sources */,
+				BBFAEF0E2D706FB5007BCFDD /* Frameworks */,
+				BBFAEF0F2D706FB5007BCFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BBFAEF132D706FB5007BCFDD /* Tubes-Motion */,
+			);
+			name = "Tubes-Motion";
+			packageProductDependencies = (
+			);
+			productName = "Tubes-Motion";
+			productReference = BBFAEF112D706FB5007BCFDD /* Tubes-Motion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBFAEF252D706FB8007BCFDD /* Tubes-MotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBFAEF3D2D706FB8007BCFDD /* Build configuration list for PBXNativeTarget "Tubes-MotionTests" */;
+			buildPhases = (
+				BBFAEF222D706FB8007BCFDD /* Sources */,
+				BBFAEF232D706FB8007BCFDD /* Frameworks */,
+				BBFAEF242D706FB8007BCFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBFAEF282D706FB8007BCFDD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BBFAEF292D706FB8007BCFDD /* Tubes-MotionTests */,
+			);
+			name = "Tubes-MotionTests";
+			packageProductDependencies = (
+			);
+			productName = "Tubes-MotionTests";
+			productReference = BBFAEF262D706FB8007BCFDD /* Tubes-MotionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBFAEF2F2D706FB8007BCFDD /* Tubes-MotionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBFAEF402D706FB8007BCFDD /* Build configuration list for PBXNativeTarget "Tubes-MotionUITests" */;
+			buildPhases = (
+				BBFAEF2C2D706FB8007BCFDD /* Sources */,
+				BBFAEF2D2D706FB8007BCFDD /* Frameworks */,
+				BBFAEF2E2D706FB8007BCFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBFAEF322D706FB8007BCFDD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BBFAEF332D706FB8007BCFDD /* Tubes-MotionUITests */,
+			);
+			name = "Tubes-MotionUITests";
+			packageProductDependencies = (
+			);
+			productName = "Tubes-MotionUITests";
+			productReference = BBFAEF302D706FB8007BCFDD /* Tubes-MotionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBFAEF092D706FB5007BCFDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BBFAEF102D706FB5007BCFDD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BBFAEF252D706FB8007BCFDD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BBFAEF102D706FB5007BCFDD;
+					};
+					BBFAEF2F2D706FB8007BCFDD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BBFAEF102D706FB5007BCFDD;
+					};
+				};
+			};
+			buildConfigurationList = BBFAEF0C2D706FB5007BCFDD /* Build configuration list for PBXProject "Tubes-Motion" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBFAEF082D706FB5007BCFDD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BBFAEF122D706FB5007BCFDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBFAEF102D706FB5007BCFDD /* Tubes-Motion */,
+				BBFAEF252D706FB8007BCFDD /* Tubes-MotionTests */,
+				BBFAEF2F2D706FB8007BCFDD /* Tubes-MotionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBFAEF0F2D706FB5007BCFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBFAEF242D706FB8007BCFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBFAEF2E2D706FB8007BCFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBFAEF0D2D706FB5007BCFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBFAEF222D706FB8007BCFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBFAEF2C2D706FB8007BCFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBFAEF282D706FB8007BCFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBFAEF102D706FB5007BCFDD /* Tubes-Motion */;
+			targetProxy = BBFAEF272D706FB8007BCFDD /* PBXContainerItemProxy */;
+		};
+		BBFAEF322D706FB8007BCFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBFAEF102D706FB5007BCFDD /* Tubes-Motion */;
+			targetProxy = BBFAEF312D706FB8007BCFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BBFAEF382D706FB8007BCFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBFAEF392D706FB8007BCFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBFAEF3B2D706FB8007BCFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tubes-Motion/Preview Content\"";
+				DEVELOPMENT_TEAM = 2C3YA8X78B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.akbarrzql.Tubes-Motion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBFAEF3C2D706FB8007BCFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tubes-Motion/Preview Content\"";
+				DEVELOPMENT_TEAM = 2C3YA8X78B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.akbarrzql.Tubes-Motion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBFAEF3E2D706FB8007BCFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C3YA8X78B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.akbarrzql.Tubes-MotionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tubes-Motion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tubes-Motion";
+			};
+			name = Debug;
+		};
+		BBFAEF3F2D706FB8007BCFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C3YA8X78B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.akbarrzql.Tubes-MotionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tubes-Motion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tubes-Motion";
+			};
+			name = Release;
+		};
+		BBFAEF412D706FB8007BCFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C3YA8X78B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.akbarrzql.Tubes-MotionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tubes-Motion";
+			};
+			name = Debug;
+		};
+		BBFAEF422D706FB8007BCFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C3YA8X78B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.akbarrzql.Tubes-MotionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tubes-Motion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBFAEF0C2D706FB5007BCFDD /* Build configuration list for PBXProject "Tubes-Motion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFAEF382D706FB8007BCFDD /* Debug */,
+				BBFAEF392D706FB8007BCFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBFAEF3A2D706FB8007BCFDD /* Build configuration list for PBXNativeTarget "Tubes-Motion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFAEF3B2D706FB8007BCFDD /* Debug */,
+				BBFAEF3C2D706FB8007BCFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBFAEF3D2D706FB8007BCFDD /* Build configuration list for PBXNativeTarget "Tubes-MotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFAEF3E2D706FB8007BCFDD /* Debug */,
+				BBFAEF3F2D706FB8007BCFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBFAEF402D706FB8007BCFDD /* Build configuration list for PBXNativeTarget "Tubes-MotionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFAEF412D706FB8007BCFDD /* Debug */,
+				BBFAEF422D706FB8007BCFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBFAEF092D706FB5007BCFDD /* Project object */;
+}
